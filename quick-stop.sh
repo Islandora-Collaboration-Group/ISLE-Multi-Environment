@@ -16,7 +16,7 @@ do
 done
 
 echo 'Removing master Portainer and Traefik (proxy) Containers...'
-cd $MAIN_DIR
+cd "$MAIN_DIR"
 docker-compose down -v
 sleep 2
 
